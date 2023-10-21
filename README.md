@@ -1,6 +1,6 @@
 # Flutter Travel Companion App
 
-![Flutter Travel Companion App](screenshots/app_screenshot.png)
+![Flutter Travel Companion App](screenshots/1.png)
 
 Welcome to the Flutter Travel Companion App repository! This app is designed to enhance your travel experience and make it hassle-free, whether you're traveling solo, with family, or in a group. It offers a wide range of features to help you plan your trip, explore tourist attractions, find accommodations and restaurants, keep track of expenses, provide translation services, navigate with real-time maps, and convert currency rates.
 
