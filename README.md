@@ -1,7 +1,5 @@
 # Flutter Travel Companion App
 
-![Flutter Travel Companion App](screenshots/1.png)
-
 Welcome to the Flutter Travel Companion App repository! This app is designed to enhance your travel experience and make it hassle-free, whether you're traveling solo, with family, or in a group. It offers a wide range of features to help you plan your trip, explore tourist attractions, find accommodations and restaurants, keep track of expenses, provide translation services, navigate with real-time maps, and convert currency rates.
 
 ## Features
@@ -20,13 +18,43 @@ Welcome to the Flutter Travel Companion App repository! This app is designed to 
 
 Here are some screenshots of the Flutter Travel Companion App in action:
 
-![Trip Planning Screen](screenshots/trip_planning_screen.png)
+<p align="center">
+  <table>
+    <tr>
+      <td style="padding-right: 20">
+        <img src="screenshots/2.png" alt="App Screenshot 1" width="480">
+      </td>
+    </tr>
+  </table>
+</p>
 _The trip planning screen allows users to select a vacation spot and access travel blogs for recommendations._
 
-![Navigation and Live Locations Screen](screenshots/navigation_screen.png)
+<p align="center">
+  <table>
+    <tr>
+      <td style="padding-right: 20">
+        <img src="screenshots/3.png" alt="App Screenshot 1" width="480">
+      </td>
+      <td style="padding-right: 20">
+        <img src="screenshots/4.png" alt="App Screenshot 1" width="480">
+      </td>
+    </tr>
+  </table>
+</p>
 _Users can access real-time navigation instructions and live locations of group members via Google Maps._
 
-![Expense Tracking Screen](screenshots/expense_tracking_screen.png)
+<p align="center">
+  <table>
+    <tr>
+      <td style="padding-right: 20">
+        <img src="screenshots/5.png" alt="App Screenshot 1" width="480">
+      </td>
+      <td style="padding-right: 20">
+        <img src="screenshots/6.png" alt="App Screenshot 1" width="480">
+      </td>
+    </tr>
+  </table>
+</p>
 _The expense tracking feature helps users keep track of expenses and settle bills among group members._
 
 ## Getting Started
@@ -35,7 +63,7 @@ To get started with the Flutter Travel Companion App, follow these steps:
 
 1. Clone this repository to your local machine.
    ```shell
-   git clone https://github.com/your-username/flutter-travel-companion-app.git
+   git clone https://github.com/HiBorn4/flutter-travel-companion-app.git
    ```
 
 2. Navigate to the project directory.
