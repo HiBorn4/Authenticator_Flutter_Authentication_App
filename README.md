@@ -1,33 +1,32 @@
-# Flutter Travel Companion App
+# Authenticator Flutter Firebase Authentication App
 
-Welcome to the Flutter Travel Companion App repository! This app is designed to enhance your travel experience and make it hassle-free, whether you're traveling solo, with family, or in a group. It offers a wide range of features to help you plan your trip, explore tourist attractions, find accommodations and restaurants, keep track of expenses, provide translation services, navigate with real-time maps, and convert currency rates.
+Welcome to the Flutter Firebase Authentication App repository! This project showcases a Flutter app integrated with Firebase for user authentication. Whether you're a seasoned developer or just getting started with app development, this project is designed to help you understand how to implement user authentication with Firebase in your Flutter apps.
 
 ## Features
 
-- **Trip planning**: Plan your trip by selecting a vacation spot and accessing travel blogs for recommendations on accommodations, tourist attractions, and restaurants.
-- **Real-time navigation**: Get navigation instructions and live locations of all group members via Google Maps, even if traveling in different vehicles.
-- **Group chats and calls**: Stay connected with other travelers in your group through group chats and calls within the app.
-- **Translation services**: Translate signboards, menu cards, and speech to a language understood by the user, using Google Translate integration.
-- **Expense tracking**: Keep a tab on all expenses and the payer using the built-in expense tracker. Easily settle bills among group members after the trip.
-- **Currency conversion**: Convert currency rates in real-time to help you manage your finances while traveling abroad.
-- **Personalized recommendations**: Receive personalized recommendations for accommodations, attractions, and restaurants based on your preferences and travel history.
-- **Offline mode**: Access essential information and maps offline, ensuring functionality even in areas with limited connectivity.
-- **User authentication**: Register and login securely to personalize your travel preferences and access app features.
+- **User Registration**: Allow users to create an account using their email and password.
+- **User Login**: Enable users to log in with their registered credentials.
+- **Password Reset**: Implement a password reset functionality for users who forget their passwords.
+- **User Profile**: Allow users to update their profile information, including name and profile picture.
+- **Email Verification**: Send email verification links to ensure users' email addresses are valid.
+- **User Authentication State**: Manage user authentication state, providing a seamless user experience.
 
 ## Screenshots
 
-Here are some screenshots of the Flutter Travel Companion App in action:
+Here are some screenshots of the Flutter Firebase Authentication App in action:
 
 <p align="center">
   <table>
     <tr>
       <td style="padding-right: 20">
-        <img src="screenshots/2.png" alt="App Screenshot 1" width="480">
+        <img src="screenshots/1.png" alt="App Screenshot 1" width="480">
+      </td>
+      <td>
+        <img src="screenshots/2.png" alt="App Screenshot 2" width="480">
       </td>
     </tr>
   </table>
 </p>
-_The trip planning screen allows users to select a vacation spot and access travel blogs for recommendations._
 
 <p align="center">
   <table>
@@ -35,13 +34,12 @@ _The trip planning screen allows users to select a vacation spot and access trav
       <td style="padding-right: 20">
         <img src="screenshots/3.png" alt="App Screenshot 1" width="480">
       </td>
-      <td style="padding-right: 20">
-        <img src="screenshots/4.png" alt="App Screenshot 1" width="480">
+      <td>
+        <img src="screenshots/4.png" alt="App Screenshot 2" width="480">
       </td>
     </tr>
   </table>
 </p>
-_Users can access real-time navigation instructions and live locations of group members via Google Maps._
 
 <p align="center">
   <table>
@@ -49,51 +47,53 @@ _Users can access real-time navigation instructions and live locations of group 
       <td style="padding-right: 20">
         <img src="screenshots/5.png" alt="App Screenshot 1" width="480">
       </td>
-      <td style="padding-right: 20">
-        <img src="screenshots/6.png" alt="App Screenshot 1" width="480">
+      <td>
+        <img src="screenshots/6.png" alt="App Screenshot 2" width="480">
       </td>
     </tr>
   </table>
 </p>
-_The expense tracking feature helps users keep track of expenses and settle bills among group members._
 
 ## Getting Started
 
-To get started with the Flutter Travel Companion App, follow these steps:
+To get started with the Flutter Firebase Authentication App, follow these steps:
 
 1. Clone this repository to your local machine.
+
    ```shell
-   git clone https://github.com/HiBorn4/flutter-travel-companion-app.git
+   git clone https://github.com/your-username/flutter-firebase-auth-app.git
    ```
 
 2. Navigate to the project directory.
+
    ```shell
-   cd flutter-travel-companion-app
+   cd flutter-firebase-auth-app
    ```
 
-3. Install the necessary dependencies using Flutter's package manager, **pub**.
-   ```shell
-   flutter pub get
-   ```
+3. Create a new Firebase project on the [Firebase Console](https://console.firebase.google.com/). Add your Android and iOS apps to the project and configure the Firebase SDK by adding the configuration files (`google-services.json` for Android and `GoogleService-Info.plist` for iOS) to the app.
 
-4. Run the app on a connected device or emulator.
+4. Enable Email/Password authentication in the Firebase Console.
+
+5. Run the app on a connected device or emulator.
+
    ```shell
    flutter run
    ```
 
+6. Start testing the app's authentication features.
+
 ## Contributing
 
-Contributions to the Flutter Travel Companion App are welcome and encouraged! If you find any bugs, have feature requests, or want to contribute in any other way, please open an issue or submit a pull request. We appreciate your help in making this app better.
+Contributions to the Flutter Firebase Authentication App are welcome and encouraged! If you find any bugs, have feature requests, or want to contribute in any other way, please open an issue or submit a pull request. Your contributions are highly appreciated.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code to suit your needs.
 
-## Acknowledgements
+## Acknowledgments
 
-We would like to express our gratitude to the Flutter community for their continuous support and the developers of the libraries and packages used in this app.
+A big thank you to the Flutter and Firebase communities for their continuous support and the developers of the libraries and packages used in this app.
 
 If you have any questions or need further assistance, please feel free to contact me.
 
-Have a memorable and hassle-free travel experience with Flutter Travel Companion App!
-# flutter-real-travelgenie
+Let's create secure and user-friendly authentication solutions with Flutter and Firebase!
